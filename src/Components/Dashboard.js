@@ -45,20 +45,22 @@ const Dashboard = ({ item }) => {
             </div>
           </div>
 
-          <div style={{marginRight:"50px"}}>
+          <div className="dropdown" style={{marginRight:"50px"}}>
             <DropdownButton variant="secondary" title="Select Team">
-              <Dropdown.Item as="button" onClick={() => filterTeam("Sales")}>
+              <Dropdown.Item className="dropdown" as="button" onClick={() => filterTeam("Sales")}>
                 Sales
               </Dropdown.Item>
               <Dropdown.Item
+              className="dropdown"
                 as="button"
                 onClick={() => filterTeam("Marketing")}
               >
                 Marketing
               </Dropdown.Item>
               <Dropdown.Item
+              className="dropdown"
                 as="button"
-                onClick={() => setCategory(item)}
+                onClick={() => setCategory(Data)}
               >
                 ALL
               </Dropdown.Item>
@@ -68,12 +70,12 @@ const Dashboard = ({ item }) => {
 
         <hr />
 
-        <div className="d-flex flex-wrap">
+        <div className="dashboardstyle d-flex flex-wrap">
           {category.map((Val) => {
             return (
-              <div className="d-flex flex-wrap ">
+              <div className=" d-flex flex-wrap ">
                 <div
-                  className="card m-2  border border-dark"
+                  className="dashCard card m-2  border border-dark"
                   style={{ width: "17rem" , cursor:"pointer"}}
                 >
                   <img

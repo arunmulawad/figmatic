@@ -10,7 +10,6 @@ body {
   height: 100%;
   width: 250px;
   background-color: black;
- 
 }
 .SidebarList .row {
   width: 100%;
@@ -47,11 +46,54 @@ body {
 
 .Navtopbar {
   background-color: white;
-
 }
 
 .Dashboard {
   background-color: "#EDEDED";
   height: 100%;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .Sidebar {
+    height: 100%;
+    width: 65px;
+    background-color: black;
+  }
+  .row .rows {
+    margin-top: 20px;
+  }
+
+  .image {
+    display: none;
+  }
+  .Sidebar #title {
+    display: none;
+  }
+  .powered {
+    display: none;
+  }
+
+  .Navtopbar {
+    height: 50px;
+  }
+  .Navtopbar .navBtn {
+    font-size: 10px;
+  }
+  .Navtopbar .navName {
+    font-size: 12px;
+  }
+
+  .Dashboard .btn {
+    font-size: 10px;
+  }
+  .Dashboard .dropdown {
+    font-size: 10px;
+  }
+  .Dashboard {
+   
+    height: 100%;
+  
+  }
+ 
 }

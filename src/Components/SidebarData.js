@@ -9,7 +9,7 @@ export const SidebarData = [
   {
     title: "KNOWLEDGE",
     icon: <i class="fa-solid fa-graduation-cap"></i>,
-    link: "/knowledge",
+    link: "/",
   },
   {
     title: "MEMBERS",

@@ -5,10 +5,11 @@ const Navtopbar = () => {
   return (
     <Navbar className="Navtopbar">
       <Container>
-        <Navbar.Brand>KNOWLEDGE</Navbar.Brand>
+        <Navbar.Brand className="navName">KNOWLEDGE</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <button
+          className="navBtn"
             style={{
               border: "2px solid black",
               backgroundColor: "#39B5E0",
@@ -19,6 +20,7 @@ const Navtopbar = () => {
           </button>
 
           <img
+          className="navImg"
             style={{
               width: "50px",
               height: "50px",

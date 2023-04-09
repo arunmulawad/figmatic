@@ -31,7 +31,7 @@ function App() {
             <Navtopbar />
             <Routes>
               <Route path="/dash" element={<Knowledge/>} />
-             <Route path="/knowledge" element={<Dashboard/>} /> 
+             <Route path="/" element={<Dashboard/>} /> 
               <Route path="/members" element={<Members />} />
               <Route path="/teams" element={<Teams />} />
               <Route path="/vault" element={<Vault />} />

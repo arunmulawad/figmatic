@@ -31,19 +31,19 @@ const Sidebar = () => {
           <li className="row">
             <div className="rows">
               <div id="icon">
-                <i class="fa-solid fa-gear"></i>
+                <i className="fa-solid fa-gear"></i>
               </div>{" "}
               <div id="title">SETTINGS</div>
             </div>
             <div className="rows">
               <div id="icon">
-              <i class="fa-solid fa-building"></i>
+              <i className="fa-solid fa-building"></i>
               </div>{" "}
               <div id="title">COMPANY</div>
             </div>
             <div className="rows">
               <div id="icon">
-              <i class="fa-solid fa-circle-user"></i>
+              <i className="fa-solid fa-circle-user"></i>
               </div>{" "}
               <div id="title">MY PROFILE</div>
             </div>
